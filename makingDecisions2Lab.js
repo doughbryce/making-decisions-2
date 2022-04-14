@@ -39,14 +39,22 @@ for (let i = 0; i < family.length; i++) {
 
 // Do not edit the code below.
 let nums = [1,2,3,6,22,98,45,23,22,12];
-let evensArr = []
+let evensArr = [];
 // Do not edit the code above.
 
 /*
   Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
 */
 
-//Code Here
+for (let i = 0; i < nums.length; i++) {
+  
+  if (nums[i] % 2 === 0) {
+    evensArr.push(nums[i]);
+  }
+  
+}
+
+console.log(evensArr);
 
 
 
