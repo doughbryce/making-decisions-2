@@ -224,14 +224,15 @@ switch (letterGrade.toUpperCase()) {
 
 
 for (let i = 1; i <= 100; i++) {
-  
-//   switch (i) {
-//     case value:
-      
-//       break;
-  
-//     default:
-//       break;
-//   }
 
-// }
+  if (i % 3 === 0 && i % 5 !== 0) {
+    console.log(`dev`);
+  } else if(i % 5 === 0 && i % 3 !== 0){
+    console.log(`mountain`)
+  } else if (i % 3 === 0 && i % 5 === 0){
+    console.log(`devmountain`);
+  } else {
+    console.log(i);
+  }
+
+}
