@@ -157,7 +157,7 @@ for (let i = letters.length - 1; i >= 0; i--) {
 // Switch statements can be excellent alternatives to if blocks. Look up switch statements (I recommend W3 Schools) and try to implement one for the following.
 
 // Do not edit the code below.
-let letterGrade = 'B'
+let letterGrade = 'a';
 // Do not edit the code above.
 
 /* Use a switch statement on 'letterGrade' and console.log the appropriate response.
@@ -170,7 +170,31 @@ If F: "The student is failing."
 If the letter grade is not one of the above letters, console.log 'Not an eligible grade.'
 */
 
-//Code Here
+switch (letterGrade.toUpperCase()) {
+  case `A`:
+  // case `a`:
+    console.log(`The student is doing excellently.`)
+    break;
+  case `B`:
+  // case `b`:
+      console.log(`The student is doing well.`)
+    break;
+  case `C`:
+  // case `c`:
+    console.log(`The student is doing alright.`)
+    break;
+  case `D`:
+  // case `d`:
+    console.log(`The student is not doing very well.`)
+    break;
+  case `F`:
+  // case `f`:
+    console.log(`The student is failing.`)
+    break;
+  default:
+    console.log(`not an eligible grade`)
+    break;
+}
 
 
 
@@ -198,4 +222,16 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
   ...
 */
 
-//Code Here
+
+for (let i = 1; i <= 100; i++) {
+  
+//   switch (i) {
+//     case value:
+      
+//       break;
+  
+//     default:
+//       break;
+//   }
+
+// }
